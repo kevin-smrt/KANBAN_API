@@ -13,10 +13,10 @@ Créer une API (CRUD) REST et la documenter.
 ## 📑 Les étapes
 Commencer par créer une base de données. Tout le processus est résumé dans [ce projet](https://github.com/kevin-smrt/DB-CONCEPT/blob/master/GDP.md).
 
-Une fois la base de données est prête on peut s'attaquer au code javascript.
-La première étape est de créeer les modèles qui vont être utilisés par `sequelize` ainsi que les associations.
+Une fois que la base de données est prête on peut s'attaquer au code javascript.
+La première étape est de mettre en place l'architecture "classique" d'un projet MVC (models, views, controllers).
 
-Ensuite, mettre en place l'architecture "classique" d'un projet MVC (models, views, controllers).
+Ensuite, créer les modèles qui vont être utilisés par `sequelize` ainsi que les associations.
 
 Créer un fichier index.js pour instancier le serveur `express` avec toutes les informations necessaire à son bon fonctionnement.
 
