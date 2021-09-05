@@ -1,5 +1,5 @@
 // Récupère la classe Tag
-const { Tag } = require("../models");
+const { Tag, Card } = require("../models");
 
 const tagController = {
     // Méthode pour renvoyer tous les tags
