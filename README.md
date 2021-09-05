@@ -24,7 +24,7 @@ S'en suit l'étape de création des routes tout en respectant les principes de l
 
 Il faut ensuite tester les routes pour s'assurer de leurs fonctionnement. POSTMAN ou l'extention VSCode `VSC REST client` sont très utiles pour cette étape.
 
-Un futur projet *front* en `REACT` sera disponible pour consommer notre API.
+Un futur projet *front* en `REACT` sera disponible pour consommer cette API.
 
 ## 📍 Conclusion
 Savoir créer une API CRUD en partant de zero, de sa conceptualisation à sa réalisation, tout en respectant les principes de l'architecture REST.
