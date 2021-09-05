@@ -2,6 +2,7 @@
 require("dotenv").config();
 
 const express = require("express");
+const router = require("./app/router");
 
 // middleware pour nettoyer les valeurs des propriétés de req.body
 const bodySanitizer = require("./app/middlewares/bodySanitizer");
@@ -18,6 +19,8 @@ app.use(express.urlencoded({ extended: true }));
 // dont le middleware a besoin, et avant le router, pour que les valeurs
 // des propriétés de req.body soient saines avant l'enregistrement en BDD
 app.use(bodySanitizer);
+
+app.use(router);
 
 app.listen(PORT, () => {
     console.log(`Server ready at http://localhost:${PORT}`);
